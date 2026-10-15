@@ -22,10 +22,12 @@ Two demonstration videos accompany the experimental material to illustrate the o
 The videos are distributed as GitHub Release assets rather than directly within the repository to avoid unnecessary storage overhead.
 
 **Demonstration 1: Cerbot controllable loads example**
-In the user workflow, a request to activate automatic load scheduling is mapped to AUTO_PLANNING_ON; the corresponding shared-variable command is issued, the deterministic EMS enables the service, and the chatbot returns confirmation. The sequence verifies the path from free-form language to supervisory execution and user feedback.
+This video demonstrates the activation of automatic load scheduling through a natural language request. The user command is classified as AUTO_PLANNING_ON and translated into a supervisory instruction that enables the corresponding EMS functionality.
+The recording simultaneously displays the CERBot web interface, showing the conversation between the user and the chatbot, and the MATLAB environment, showing the resulting changes in the system's internal states and shared control variables.
 
 **Demonstration 2: Cerbot admin broadcast example**
-In the administrator workflow, broadcast content is routed to the dedicated branch, reformulated, confirmed by the administrator, and propagated to registered users. This validates context-dependent routing and multi-user communication while preserving the separation between LLM reasoning and EMS control.
+This video demonstrates the administrator broadcast workflow. The administrator submits a message intended for REC members, which is processed by the dedicated broadcast agent, reformulated, and submitted for confirmation before distribution.
+The recording simultaneously displays the web interface, showing the interaction between the administrator and CERBot, and the MATLAB environment, showing the evolution of the internal states and variables governing the broadcast procedure.
 
 The videos and classification archive are available in the [Releases](../../releases) section.
 

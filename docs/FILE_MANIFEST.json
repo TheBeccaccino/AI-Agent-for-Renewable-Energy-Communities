@@ -1,0 +1,372 @@
+[
+  {
+    "path": ".gitignore",
+    "size_bytes": 410,
+    "sha256": "d17f8f71248a7980037274b78e964b94cb3f64e84438f3d32554b24a8b1c7d5f"
+  },
+  {
+    "path": "CITATION.cff",
+    "size_bytes": 1449,
+    "sha256": "ce8ee05139a392515e93babf5dcab10bda6b72a7879e76dee7136a89511d56ca"
+  },
+  {
+    "path": "README.md",
+    "size_bytes": 8939,
+    "sha256": "366acc4d0e7c8c6e01d513a5adddc3bd698ee184f64cd37c8d796f2801a83eeb"
+  },
+  {
+    "path": "analysis/Classification_Dataset_Setup.m",
+    "size_bytes": 810,
+    "sha256": "a5f40c7c1e15b156e7825ac3c6f7781ac479b768410fd23219b41587621948e9"
+  },
+  {
+    "path": "analysis/Test_Result_Elaboration_1120.m",
+    "size_bytes": 26645,
+    "sha256": "ee455c452b0001c1ce6e4300a040c7cb11c89f0d0e40718f4d0bcea5e9529443"
+  },
+  {
+    "path": "analysis/evaluateClassifierConfusionMatrix.m",
+    "size_bytes": 25668,
+    "sha256": "5a7d94656b3b084a75ac46370f30bda14f8f5cd0d489bc18ad70305d906e95bc"
+  },
+  {
+    "path": "config/LLM_API_KEYS.example.txt",
+    "size_bytes": 313,
+    "sha256": "75e8b8ca11fd895f67ee9ab475cce43b265d982f7fa48cc02d54b974125e66df"
+  },
+  {
+    "path": "datasets/Classification Dataset ChatGPT.xlsx",
+    "size_bytes": 42687,
+    "sha256": "86f69be855e5e4db24ee27378553a1f2804d4bf9ccc10c5d83d9927969fa781c"
+  },
+  {
+    "path": "datasets/Classification Dataset Claude.xlsx",
+    "size_bytes": 40744,
+    "sha256": "94d6c79c49d30f78079b8210ce707947beeda68320becc4dca445fd2895d555d"
+  },
+  {
+    "path": "datasets/Classification Dataset DeepSeek.xlsx",
+    "size_bytes": 38082,
+    "sha256": "0ac89f0f0f9795ce621e398a2ce7651e38fcdd16f7245464da70a8d242fbe88c"
+  },
+  {
+    "path": "datasets/Classification Dataset Grok.xlsx",
+    "size_bytes": 32057,
+    "sha256": "509073d789e9ab08b372e6c96c360c72b17f64afda6d2a6d1c8b918338721c9c"
+  },
+  {
+    "path": "docs/DEPENDENCIES.md",
+    "size_bytes": 4101,
+    "sha256": "fdff43b06ec9fd0afe0267462e1a7f1018f77702f28478679d64bd9e2fb10b44"
+  },
+  {
+    "path": "docs/EXPERIMENTAL_PROTOCOL.md",
+    "size_bytes": 4518,
+    "sha256": "eefa4963e7c7eac118a03128a2bff61ad3636146acaa78d86cb8ad3fdafae948"
+  },
+  {
+    "path": "docs/FIGURE_CHANGES.md",
+    "size_bytes": 1379,
+    "sha256": "48418bb1d22506655a9a63cba5330f1863c84b44d2e65e368c9eb6713df48feb"
+  },
+  {
+    "path": "docs/FIGURE_VALIDATION.json",
+    "size_bytes": 500,
+    "sha256": "24b40030ae0fe4b573e3b828b9d571eb9bc8e67a2b512ebaa765d9e312037679"
+  },
+  {
+    "path": "docs/RELEASE_NOTES.md",
+    "size_bytes": 1266,
+    "sha256": "c3b0784d2c669540711975df391a3cd94a764360e7535dde66d62836b79fbbe2"
+  },
+  {
+    "path": "docs/SOURCE_PROVENANCE.csv",
+    "size_bytes": 14646,
+    "sha256": "84060b9df78ea40630b4c6fd7e3070861c6ce17619833e1ccd4236badd954602"
+  },
+  {
+    "path": "docs/VALIDATION_REPORT.json",
+    "size_bytes": 12336,
+    "sha256": "c41da159218f2a54f6079fb09b6762b11977ffac5f530b845c54ab1a6dce37d1"
+  },
+  {
+    "path": "prompts/CerBot_Admin_BROAD_Classificator.txt",
+    "size_bytes": 2071,
+    "sha256": "cbc4058d1e73cae47a2e094b92b816e1d2701ee31efd1ed45c00b84e7654864a"
+  },
+  {
+    "path": "prompts/CerBot_Admin_Classificator.txt",
+    "size_bytes": 5897,
+    "sha256": "121a0332c20d9021cf01d1b76aafb41c1c5725da470763af2a1b55dd915b2005"
+  },
+  {
+    "path": "prompts/CerBot_Admin_EMS_Classificator.txt",
+    "size_bytes": 2978,
+    "sha256": "a9625f37ae669b1eeae3d47f892331ae76e9f259a557ffc93d38265e9939078a"
+  },
+  {
+    "path": "prompts/CerBot_Classificator.txt",
+    "size_bytes": 4679,
+    "sha256": "43b1abd8e2d78d2da0a0fd832d8d587bb446a9d9baf0e530618ae086f5c79830"
+  },
+  {
+    "path": "prompts/CerBot_EMS_Classificator.txt",
+    "size_bytes": 4314,
+    "sha256": "ac30b7b5b6294601b61324fee622317e790fc04bd8ba7048724f5f66dda72ecd"
+  },
+  {
+    "path": "prompts/CerBot_SingleStage_Classificator.txt",
+    "size_bytes": 9702,
+    "sha256": "a50996e73c6e2a2e09cd17622932cfadadf09b0fbe5668a14b2afcb9dc5939e4"
+  },
+  {
+    "path": "results/Classification_records_Test.csv.gz",
+    "size_bytes": 3237254,
+    "sha256": "34a57d065959a140275b6bc27fdbd84b36af0a432f987c1dde98c86b197fa7eb"
+  },
+  {
+    "path": "results/Classification_results_Test.mat",
+    "size_bytes": 15007211,
+    "sha256": "81f3215c33378b81ac6fe8db7245ff9522c9accb45f49305b96966bf2c1f1972"
+  },
+  {
+    "path": "results/Classification_summary_Test.csv",
+    "size_bytes": 33614,
+    "sha256": "cda4054a0c592b67e676ad997fdb3106fd80a28038160c6ec2621d4d708f25e0"
+  },
+  {
+    "path": "results/Combined_External_Test_Results.mat",
+    "size_bytes": 4228039,
+    "sha256": "99d8598aa70f1b77f72f6e4abc5197dbcc78fd1aa5af69b7244cf4506b4886b4"
+  },
+  {
+    "path": "results/Combined_External_Test_summary.csv",
+    "size_bytes": 6635,
+    "sha256": "11568cc11d55db748731a9a3f6f19dd409fd3d89ba06b8e30fabbb79d757bed1"
+  },
+  {
+    "path": "results/auxiliary/classification_metrics.xlsx",
+    "size_bytes": 4793,
+    "sha256": "fbb48d83cf3903adff49c463959cba7861c26db3c6ce34c396db4b274fb3f83d"
+  },
+  {
+    "path": "results/baseline_validation/semantic/development_oof.csv",
+    "size_bytes": 91352,
+    "sha256": "4a6539cf4a0b521c9ad10a32b20738fa93ff06e2426ce7d76b6d04225f183f7d"
+  },
+  {
+    "path": "results/baseline_validation/semantic/external_predictions.csv",
+    "size_bytes": 230495,
+    "sha256": "4939d312c412ac228ac6f1766cbc7a67f70123b90d6df32d8f72e8780e1ee4a0"
+  },
+  {
+    "path": "results/baseline_validation/semantic/runtime.json",
+    "size_bytes": 365,
+    "sha256": "5a21932466523dc11595daf689d8c72fdee32c7df819a3a6413f7bb87b003be4"
+  },
+  {
+    "path": "results/baseline_validation/semantic/scores.csv",
+    "size_bytes": 680,
+    "sha256": "9c8540a6e08cf335b57db14968cc0454c220fb209a232417da29c4b84947db72"
+  },
+  {
+    "path": "results/baseline_validation/traditional/development_oof.csv",
+    "size_bytes": 91312,
+    "sha256": "81da907b04112cda8062aeb9065d763f1f5a74ada802410a8b10b676834c62d9"
+  },
+  {
+    "path": "results/baseline_validation/traditional/external_predictions.csv",
+    "size_bytes": 233918,
+    "sha256": "b346120edb1e8df1491fbb11a67c2fba48aaf155e7b4f7f09738a332b27752f7"
+  },
+  {
+    "path": "results/baseline_validation/traditional/runtime.json",
+    "size_bytes": 313,
+    "sha256": "fd74817ae8ac4cdfea20b37e449958c05bc655d43f678266b9e171c256e989ba"
+  },
+  {
+    "path": "results/baseline_validation/traditional/scores.csv",
+    "size_bytes": 697,
+    "sha256": "f9e95ea70a1ae1168634d2158a1c0c3f7f01394798862db5464c6e6a558b923f"
+  },
+  {
+    "path": "results/haiku/Haiku_Combined_External_Test_Results.mat",
+    "size_bytes": 553704,
+    "sha256": "8454b9820b45d121519a193b7b99e6a5c53c50d5f7f0ccf0a666d9f1e1186a86"
+  },
+  {
+    "path": "results/haiku/Haiku_Combined_External_Test_records.csv",
+    "size_bytes": 1838244,
+    "sha256": "84fc7edf37558c6e08eec18a42a717fee0ac9d9aecd983681ab62021f44063a3"
+  },
+  {
+    "path": "source/agents/LLM_Model_Resolver.m",
+    "size_bytes": 1740,
+    "sha256": "4591da0453bfdfb573043986f44a3739f262a63769e7e71496bce02051d35771"
+  },
+  {
+    "path": "source/agents/LLM_agents_definition.m",
+    "size_bytes": 50438,
+    "sha256": "76e7f1042ec2e904d2927c53a22284ab9a34a8721032c6f73042ff04a894095b"
+  },
+  {
+    "path": "source/api/ClaudeParseResponse.m",
+    "size_bytes": 3595,
+    "sha256": "05f5fc7bbe5b1fbf0f7f986b3866c2d682d29abda458e76b17179cce015f7f89"
+  },
+  {
+    "path": "source/api/ClaudePostMessage.m",
+    "size_bytes": 3053,
+    "sha256": "df2b4273fb3fddd3a7d7c2ce0ea91b5f08866f6a4dfa7845d9a0cc7bd4179f51"
+  },
+  {
+    "path": "source/api/Claude_LLM_Interaction.m",
+    "size_bytes": 3875,
+    "sha256": "ac48232b337ce89936d94dd37f3b06ba9aea426372c1ed6970b4d39b9082813f"
+  },
+  {
+    "path": "source/api/Claude_header_generation.m",
+    "size_bytes": 748,
+    "sha256": "048cb8f23dc0820c6b79fa0d2537b55c4ba9c9581c0d595216eafd2de720c9f1"
+  },
+  {
+    "path": "source/api/GPT_header_generation_new.m",
+    "size_bytes": 343,
+    "sha256": "fe365390d337a4d1a1f728a4dd29444f5052a8f78b99f7158253353fc2447bce"
+  },
+  {
+    "path": "source/api/LLM_Interaction.m",
+    "size_bytes": 3121,
+    "sha256": "9ec36681628168183308de3445e2a41363703323ba3367237d9d6dfc6234a7ba"
+  },
+  {
+    "path": "source/api/OpenAIGetResponse.m",
+    "size_bytes": 275,
+    "sha256": "578fc5c88ec7a7c3d2bd59ab5bb7d4bc839d4c82b4c6d856e97c0bbd928fdf40"
+  },
+  {
+    "path": "source/api/OpenAIPostResponse_2.m",
+    "size_bytes": 546,
+    "sha256": "fffe2412ca0a67a14b26dd46265efd0b6e4d874facbf05c9c696bb27787eda71"
+  },
+  {
+    "path": "source/api/OpenAI_LLM_Interaction.m",
+    "size_bytes": 4527,
+    "sha256": "bd8884d4d2d2213715ce3ad72f1e8d1db9cab5be3110b9f18f6344d211abd7ef"
+  },
+  {
+    "path": "source/baselines/baselines.py",
+    "size_bytes": 15806,
+    "sha256": "d5be899afbee5d8142ff3fe09c5bea9058474f7ff7488f930c18125a43953076"
+  },
+  {
+    "path": "source/baselines/fetch_encoder.py",
+    "size_bytes": 882,
+    "sha256": "43e86a763e717b2113c848a016c8399187fc51eff53ca27f5ce7b09726e842cf"
+  },
+  {
+    "path": "source/baselines/local_semantic/model/classifier.joblib",
+    "size_bytes": 57245,
+    "sha256": "bf9461e942a7d81c773243e04db299f45d6a534658953c8ed2b15462babdcd8e"
+  },
+  {
+    "path": "source/baselines/local_semantic/model/metadata.json",
+    "size_bytes": 2437,
+    "sha256": "05c04e3062b8d2e5b4d59fafa07af4885bd5442ba470bd669bbdcd8654917052"
+  },
+  {
+    "path": "source/baselines/requirements-batch.txt",
+    "size_bytes": 133,
+    "sha256": "cd6b655eae7d82463a5d006018b2f532c7991940d2e9b71e7c836d22ed0e81e1"
+  },
+  {
+    "path": "source/baselines/requirements-semantic.txt",
+    "size_bytes": 75,
+    "sha256": "08bae90f0e0b3b6c275e1772f451b898b6b62aae16e475b994706ceb6674b3e5"
+  },
+  {
+    "path": "source/baselines/requirements.txt",
+    "size_bytes": 111,
+    "sha256": "04ed121dbe903e166387978d7b964b15f82b8c25668e25dad61f3296004813fa"
+  },
+  {
+    "path": "source/baselines/traditional_results/model/classifier.joblib",
+    "size_bytes": 1034951,
+    "sha256": "e46ce31b40b70c5a3b5fcd987a53b745cf9fb135f5bb09604326fdeca16a6e51"
+  },
+  {
+    "path": "source/baselines/traditional_results/model/metadata.json",
+    "size_bytes": 1019,
+    "sha256": "11089498b6edccaacdab64fcebbac6bba6d112305ca80bc22230705d1fde0ca9"
+  },
+  {
+    "path": "source/experiments/Classificator_Set_Up.m",
+    "size_bytes": 1060,
+    "sha256": "174e36733f4933ad3f097a375acdaa1c60b7b138c8196c0e145591f5d66d4c07"
+  },
+  {
+    "path": "source/experiments/EMS_Cerbot_ClassificationBatchTest_Unified_1123.m",
+    "size_bytes": 65428,
+    "sha256": "fc7bd7be0aa9edf696d7ddda878fdb4a5cf0483f1d0862bba61d2caf6dc0b7b0"
+  },
+  {
+    "path": "source/local_classifiers/localEMSClassify.m",
+    "size_bytes": 13286,
+    "sha256": "11d6478ffcf4ffa83aed5e6cfa91099894c330d9823fee2e51b8556f8aa2b945"
+  },
+  {
+    "path": "source/local_classifiers/local_Admin_Broadcast_Classify.m",
+    "size_bytes": 4219,
+    "sha256": "ba525b6dc53b87c52b886f7b6bc8c4ad95b2be32dae513e64484996ceb55d907"
+  },
+  {
+    "path": "source/local_classifiers/local_Admin_Classify.m",
+    "size_bytes": 7461,
+    "sha256": "e3606677faee2a7054c3dcd30f36e4cdb10c99ad414228dbd82db1668f17f4d5"
+  },
+  {
+    "path": "source/local_classifiers/local_Admin_EMS_Classify.m",
+    "size_bytes": 11345,
+    "sha256": "3c782886ef87c5f9d6ceed87538e6af67d95c2f3d8f74106846606e770877a7a"
+  },
+  {
+    "path": "source/local_classifiers/local_first_layer_Classify.m",
+    "size_bytes": 6001,
+    "sha256": "1c0eb3e85373f6a3bb580abd547f8c97712cbda1be16a9846b761b642ee1bf26"
+  },
+  {
+    "path": "source/local_classifiers/normalizeMessage.m",
+    "size_bytes": 437,
+    "sha256": "c4d05c44269d7e53360300c730770d36fd410a77642130a17174da2051de1a93"
+  },
+  {
+    "path": "source/routing/CerBot_Map_SingleStage_Route.m",
+    "size_bytes": 6055,
+    "sha256": "1aeeed24e40bca5ff0cef4c9f2f58b2248c58a7fdb92e1f5c40708838cffab87"
+  },
+  {
+    "path": "source/runtime/Conversation_Status_Saving.m",
+    "size_bytes": 1927,
+    "sha256": "4bc851a275c114547672f7c266095ba38f328ff751521628685318ff798a3202"
+  },
+  {
+    "path": "source/runtime/LLM_API_Keys_Setup.m",
+    "size_bytes": 445,
+    "sha256": "3004f580cf7d53c0d15e3b3012ecc9e8abcfd85e4aa8b0f7fee6ce425fd000fa"
+  },
+  {
+    "path": "source/runtime/Load_API_Keys_From_File.m",
+    "size_bytes": 2875,
+    "sha256": "c44c6c3178918eff11b6f8267c44fce0aa0be0617f4b53b00702af9004529c55"
+  },
+  {
+    "path": "source/runtime/Token_Usage_Update.m",
+    "size_bytes": 2383,
+    "sha256": "cab37b5ac254ab99a7bee6ded64eb304cfc1247497c47a2a2515d38c6481a114"
+  },
+  {
+    "path": "source/runtime/disp_status_table.m",
+    "size_bytes": 432,
+    "sha256": "06c551f53691c9d0d5af924548857ed609f4fdde4cd84d0de8cfdd5a96958a62"
+  }
+]

@@ -1,0 +1,5 @@
+# Copy this example to LLM_API_KEYS.txt in the batch working directory.
+# Replace both placeholders locally. Do not publish the completed file.
+# The supplied loader requires both variables to be present and non-empty.
+OPENAI_API_KEY=REPLACE_WITH_YOUR_OPENAI_KEY
+ANTHROPIC_API_KEY=REPLACE_WITH_YOUR_ANTHROPIC_KEY

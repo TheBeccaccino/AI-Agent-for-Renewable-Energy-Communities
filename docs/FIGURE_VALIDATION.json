@@ -1,0 +1,14 @@
+{
+  "source": "evaluateClassifierConfusionMatrix(7).m",
+  "sha256_before": "3019c992a99b92326e832a932e83a95b55aa9280a32e4437f817f6ff75320cbc",
+  "sha256_after": "5a7d94656b3b084a75ac46370f30bda14f8f5cd0d489bc18ad70305d906e95bc",
+  "input_and_confusion_matrix_section_unchanged": true,
+  "metric_and_output_section_unchanged": true,
+  "metric_helpers_unchanged": true,
+  "rendering": "Not run: MATLAB is not installed in this environment.",
+  "exports": [
+    "SVG",
+    "PDF",
+    "PNG 600 dpi"
+  ]
+}

@@ -1,0 +1,567 @@
+{
+  "prepared": "2026-11-26",
+  "new_model_calls": 0,
+  "new_training_runs": 0,
+  "datasets": [
+    {
+      "dataset": "ChatGPT",
+      "n": 950,
+      "classes": 19,
+      "examples_per_class": 50,
+      "equal_to_legacy_archive": true
+    },
+    {
+      "dataset": "Claude",
+      "n": 950,
+      "classes": 19,
+      "examples_per_class": 50,
+      "equal_to_legacy_archive": true
+    },
+    {
+      "dataset": "Grok",
+      "n": 950,
+      "classes": 19,
+      "examples_per_class": 50,
+      "equal_to_legacy_archive": true
+    },
+    {
+      "dataset": "DeepSeek",
+      "n": 950,
+      "classes": 19,
+      "examples_per_class": 50,
+      "equal_to_legacy_archive": true
+    }
+  ],
+  "message_rows": 65550,
+  "run_count": 69,
+  "runs": [
+    {
+      "run": "Local_old",
+      "n": 950,
+      "correct": 175,
+      "accuracy": 0.18421052631578946
+    },
+    {
+      "run": "Local_freeze",
+      "n": 950,
+      "correct": 322,
+      "accuracy": 0.3389473684210526
+    },
+    {
+      "run": "Local_freeze2",
+      "n": 950,
+      "correct": 324,
+      "accuracy": 0.3410526315789474
+    },
+    {
+      "run": "LLM_nano_low_nocatch",
+      "n": 950,
+      "correct": 877,
+      "accuracy": 0.9231578947368421
+    },
+    {
+      "run": "LLM_luna_low",
+      "n": 950,
+      "correct": 823,
+      "accuracy": 0.8663157894736843
+    },
+    {
+      "run": "LLM_sol_low",
+      "n": 950,
+      "correct": 836,
+      "accuracy": 0.88
+    },
+    {
+      "run": "LLM_nano_low",
+      "n": 950,
+      "correct": 882,
+      "accuracy": 0.9284210526315789
+    },
+    {
+      "run": "LLM_nano_high",
+      "n": 950,
+      "correct": 875,
+      "accuracy": 0.9210526315789473
+    },
+    {
+      "run": "LLM_luna_high",
+      "n": 950,
+      "correct": 835,
+      "accuracy": 0.8789473684210526
+    },
+    {
+      "run": "LLM_sol_high",
+      "n": 950,
+      "correct": 832,
+      "accuracy": 0.8757894736842106
+    },
+    {
+      "run": "Hybrid_nano_low_nocatch",
+      "n": 950,
+      "correct": 843,
+      "accuracy": 0.8873684210526316
+    },
+    {
+      "run": "Hybrid_nano_low",
+      "n": 950,
+      "correct": 871,
+      "accuracy": 0.9168421052631579
+    },
+    {
+      "run": "Hybrid_luna_low",
+      "n": 950,
+      "correct": 814,
+      "accuracy": 0.8568421052631578
+    },
+    {
+      "run": "Hybrid_sol_low",
+      "n": 950,
+      "correct": 830,
+      "accuracy": 0.8736842105263158
+    },
+    {
+      "run": "Hybrid_nano_high",
+      "n": 950,
+      "correct": 854,
+      "accuracy": 0.8989473684210526
+    },
+    {
+      "run": "Hybrid_luna_high",
+      "n": 950,
+      "correct": 825,
+      "accuracy": 0.868421052631579
+    },
+    {
+      "run": "Hybrid_sol_high",
+      "n": 950,
+      "correct": 821,
+      "accuracy": 0.8642105263157894
+    },
+    {
+      "run": "Single_nano_high_nocatch",
+      "n": 950,
+      "correct": 913,
+      "accuracy": 0.9610526315789474
+    },
+    {
+      "run": "Single_nano_high",
+      "n": 950,
+      "correct": 904,
+      "accuracy": 0.9515789473684211
+    },
+    {
+      "run": "Single_nano_low",
+      "n": 950,
+      "correct": 903,
+      "accuracy": 0.9505263157894737
+    },
+    {
+      "run": "Single_luna_high",
+      "n": 950,
+      "correct": 883,
+      "accuracy": 0.9294736842105263
+    },
+    {
+      "run": "Single_sol_high",
+      "n": 950,
+      "correct": 889,
+      "accuracy": 0.9357894736842105
+    },
+    {
+      "run": "Single_luna_low",
+      "n": 950,
+      "correct": 884,
+      "accuracy": 0.9305263157894736
+    },
+    {
+      "run": "Single_sol_low",
+      "n": 950,
+      "correct": 890,
+      "accuracy": 0.9368421052631579
+    },
+    {
+      "run": "Single_sol_high_R2",
+      "n": 950,
+      "correct": 886,
+      "accuracy": 0.9326315789473684
+    },
+    {
+      "run": "Single_luna_low_R2",
+      "n": 950,
+      "correct": 881,
+      "accuracy": 0.9273684210526316
+    },
+    {
+      "run": "Single_sol_low_R2",
+      "n": 950,
+      "correct": 894,
+      "accuracy": 0.9410526315789474
+    },
+    {
+      "run": "HSingle_luna_low",
+      "n": 950,
+      "correct": 860,
+      "accuracy": 0.9052631578947369
+    },
+    {
+      "run": "HSSingle_luna_low",
+      "n": 950,
+      "correct": 877,
+      "accuracy": 0.9231578947368421
+    },
+    {
+      "run": "Single_luna_low_Grok",
+      "n": 950,
+      "correct": 845,
+      "accuracy": 0.8894736842105263
+    },
+    {
+      "run": "HSingle_luna_low_Grok",
+      "n": 950,
+      "correct": 835,
+      "accuracy": 0.8789473684210526
+    },
+    {
+      "run": "HSSingle_luna_low_Grok",
+      "n": 950,
+      "correct": 841,
+      "accuracy": 0.8852631578947369
+    },
+    {
+      "run": "Single_luna_low_DeepSeek",
+      "n": 950,
+      "correct": 879,
+      "accuracy": 0.9252631578947368
+    },
+    {
+      "run": "HSingle_luna_low_DeepSeek",
+      "n": 950,
+      "correct": 864,
+      "accuracy": 0.9094736842105263
+    },
+    {
+      "run": "HSSingle_luna_low_DeepSeek",
+      "n": 950,
+      "correct": 874,
+      "accuracy": 0.92
+    },
+    {
+      "run": "Single_luna_low_Claude",
+      "n": 950,
+      "correct": 880,
+      "accuracy": 0.9263157894736842
+    },
+    {
+      "run": "HSingle_luna_low_Claude",
+      "n": 950,
+      "correct": 860,
+      "accuracy": 0.9052631578947369
+    },
+    {
+      "run": "HSSingle_luna_low_Claude",
+      "n": 950,
+      "correct": 877,
+      "accuracy": 0.9231578947368421
+    },
+    {
+      "run": "Single_nano_low_Grok",
+      "n": 950,
+      "correct": 853,
+      "accuracy": 0.8978947368421053
+    },
+    {
+      "run": "HSingle_nano_low_Grok",
+      "n": 950,
+      "correct": 856,
+      "accuracy": 0.9010526315789473
+    },
+    {
+      "run": "HSSingle_nano_low_Grok",
+      "n": 950,
+      "correct": 852,
+      "accuracy": 0.8968421052631579
+    },
+    {
+      "run": "Single_nano_low_DeepSeek",
+      "n": 950,
+      "correct": 890,
+      "accuracy": 0.9368421052631579
+    },
+    {
+      "run": "HSingle_nano_low_DeepSeek",
+      "n": 950,
+      "correct": 865,
+      "accuracy": 0.9105263157894737
+    },
+    {
+      "run": "HSSingle_nano_low_DeepSeek",
+      "n": 950,
+      "correct": 878,
+      "accuracy": 0.9242105263157895
+    },
+    {
+      "run": "Single_nano_low_Claude",
+      "n": 950,
+      "correct": 889,
+      "accuracy": 0.9357894736842105
+    },
+    {
+      "run": "HSingle_nano_low_Claude",
+      "n": 950,
+      "correct": 870,
+      "accuracy": 0.9157894736842105
+    },
+    {
+      "run": "HSSingle_nano_low_Claude",
+      "n": 950,
+      "correct": 872,
+      "accuracy": 0.9178947368421052
+    },
+    {
+      "run": "HSingle_nano_low",
+      "n": 950,
+      "correct": 875,
+      "accuracy": 0.9210526315789473
+    },
+    {
+      "run": "HSSingle_nano_low",
+      "n": 950,
+      "correct": 900,
+      "accuracy": 0.9473684210526315
+    },
+    {
+      "run": "Single_haiku_low_Grok",
+      "n": 950,
+      "correct": 877,
+      "accuracy": 0.9231578947368421
+    },
+    {
+      "run": "HSingle_haiku_low_Grok",
+      "n": 950,
+      "correct": 868,
+      "accuracy": 0.9136842105263158
+    },
+    {
+      "run": "HSSingle_haiku_low_Grok",
+      "n": 950,
+      "correct": 874,
+      "accuracy": 0.92
+    },
+    {
+      "run": "Single_haiku_low_DeepSeek",
+      "n": 950,
+      "correct": 896,
+      "accuracy": 0.9431578947368421
+    },
+    {
+      "run": "HSingle_haiku_low_DeepSeek",
+      "n": 950,
+      "correct": 880,
+      "accuracy": 0.9263157894736842
+    },
+    {
+      "run": "HSSingle_haiku_low_DeepSeek",
+      "n": 950,
+      "correct": 904,
+      "accuracy": 0.9515789473684211
+    },
+    {
+      "run": "Single_haiku_low_Claude",
+      "n": 950,
+      "correct": 912,
+      "accuracy": 0.96
+    },
+    {
+      "run": "HSingle_haiku_low_Claude",
+      "n": 950,
+      "correct": 892,
+      "accuracy": 0.9389473684210526
+    },
+    {
+      "run": "HSSingle_haiku_low_Claude",
+      "n": 950,
+      "correct": 908,
+      "accuracy": 0.9557894736842105
+    },
+    {
+      "run": "Single_haiku_low",
+      "n": 950,
+      "correct": 897,
+      "accuracy": 0.9442105263157895
+    },
+    {
+      "run": "HSingle_haiku_low",
+      "n": 950,
+      "correct": 876,
+      "accuracy": 0.9221052631578948
+    },
+    {
+      "run": "HSSingle_haiku_low",
+      "n": 950,
+      "correct": 899,
+      "accuracy": 0.9463157894736842
+    },
+    {
+      "run": "TFIDF_nano_low",
+      "n": 950,
+      "correct": 945,
+      "accuracy": 0.9947368421052631
+    },
+    {
+      "run": "TFIDF_nano_low_DeepSeek",
+      "n": 950,
+      "correct": 941,
+      "accuracy": 0.9905263157894737
+    },
+    {
+      "run": "TFIDF_nano_low_Grok",
+      "n": 950,
+      "correct": 882,
+      "accuracy": 0.9284210526315789
+    },
+    {
+      "run": "TFIDF_nano_low_Claude",
+      "n": 950,
+      "correct": 694,
+      "accuracy": 0.7305263157894737
+    },
+    {
+      "run": "MiniLM_nano_low",
+      "n": 950,
+      "correct": 863,
+      "accuracy": 0.9084210526315789
+    },
+    {
+      "run": "MiniLM_nano_low_DeepSeek",
+      "n": 950,
+      "correct": 874,
+      "accuracy": 0.92
+    },
+    {
+      "run": "MiniLM_nano_low_Grok",
+      "n": 950,
+      "correct": 804,
+      "accuracy": 0.8463157894736842
+    },
+    {
+      "run": "MiniLM_nano_low_Claude",
+      "n": 950,
+      "correct": 725,
+      "accuracy": 0.7631578947368421
+    }
+  ],
+  "pooled_groups": [
+    {
+      "group": "Single_nano_low",
+      "n": 2850,
+      "correct": 2632
+    },
+    {
+      "group": "Single_luna_low",
+      "n": 2850,
+      "correct": 2604
+    },
+    {
+      "group": "HSingle_luna_low",
+      "n": 2850,
+      "correct": 2559
+    },
+    {
+      "group": "HSSingle_luna_low",
+      "n": 2850,
+      "correct": 2592
+    },
+    {
+      "group": "HSingle_nano_low",
+      "n": 2850,
+      "correct": 2591
+    },
+    {
+      "group": "HSSingle_nano_low",
+      "n": 2850,
+      "correct": 2602
+    },
+    {
+      "group": "Single_haiku_low",
+      "n": 2850,
+      "correct": 2685
+    },
+    {
+      "group": "HSingle_haiku_low",
+      "n": 2850,
+      "correct": 2640
+    },
+    {
+      "group": "HSSingle_haiku_low",
+      "n": 2850,
+      "correct": 2686
+    },
+    {
+      "group": "TFIDF_nano_low",
+      "n": 2850,
+      "correct": 2517
+    },
+    {
+      "group": "MiniLM_nano_low",
+      "n": 2850,
+      "correct": 2403
+    }
+  ],
+  "baseline_cv": [
+    {
+      "baseline": "traditional",
+      "n": 950,
+      "accuracy": 0.7063157894736842
+    },
+    {
+      "baseline": "semantic",
+      "n": 950,
+      "accuracy": 0.8368421052631579
+    }
+  ],
+  "classifier_prompts": [
+    {
+      "agent": "CerBot.Classificator",
+      "path": "prompts/CerBot_Classificator.txt",
+      "sha256": "43b1abd8e2d78d2da0a0fd832d8d587bb446a9d9baf0e530618ae086f5c79830"
+    },
+    {
+      "agent": "CerBot.SingleStage.Classificator",
+      "path": "prompts/CerBot_SingleStage_Classificator.txt",
+      "sha256": "a50996e73c6e2a2e09cd17622932cfadadf09b0fbe5668a14b2afcb9dc5939e4"
+    },
+    {
+      "agent": "CerBot.EMS.Classificator",
+      "path": "prompts/CerBot_EMS_Classificator.txt",
+      "sha256": "ac30b7b5b6294601b61324fee622317e790fc04bd8ba7048724f5f66dda72ecd"
+    },
+    {
+      "agent": "CerBot.Admin.Classificator",
+      "path": "prompts/CerBot_Admin_Classificator.txt",
+      "sha256": "121a0332c20d9021cf01d1b76aafb41c1c5725da470763af2a1b55dd915b2005"
+    },
+    {
+      "agent": "CerBot.Admin.EMS.Classificator",
+      "path": "prompts/CerBot_Admin_EMS_Classificator.txt",
+      "sha256": "a9625f37ae669b1eeae3d47f892331ae76e9f259a557ffc93d38265e9939078a"
+    },
+    {
+      "agent": "CerBot.Admin.BROAD.Classificator",
+      "path": "prompts/CerBot_Admin_BROAD_Classificator.txt",
+      "sha256": "cbc4058d1e73cae47a2e094b92b816e1d2701ee31efd1ed45c00b84e7654864a"
+    }
+  ],
+  "matlab_execution": "Not performed: MATLAB is unavailable in the preparation environment.",
+  "credential_scan": "No credential-like literals detected in packaged text or decoded MAT arrays.",
+  "source_policy": "Classification and numerical metric logic preserved; figure-only changes, filename normalization and one credential-comment removal recorded in SOURCE_PROVENANCE.csv.",
+  "credential_helpers": {
+    "included": [
+      "Load_API_Keys_From_File.m",
+      "LLM_API_Keys_Setup.m"
+    ],
+    "custom_dependencies": [],
+    "secret_literals_detected": false,
+    "example_contains_placeholders_only": true,
+    "loader_requires_both_provider_keys": true
+  }
+}

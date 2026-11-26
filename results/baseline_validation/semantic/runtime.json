@@ -1,0 +1,10 @@
+{
+  "cold_load_s": 0.592745312000261,
+  "model_bytes": 487787679,
+  "run_rss_start_bytes": 360767488,
+  "run_rss_end_bytes": 1739247616,
+  "remote_inference_calls": 0,
+  "timing": "CPU, one warm-up, one message at a time, Python core, no MATLAB or network; RSS includes training process; not peak model memory.",
+  "torch_threads": 1,
+  "torch_interop_threads": 1
+}

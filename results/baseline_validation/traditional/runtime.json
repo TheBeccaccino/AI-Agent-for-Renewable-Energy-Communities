@@ -1,0 +1,8 @@
+{
+  "cold_load_s": 0.025331979999464238,
+  "model_bytes": 1035970,
+  "run_rss_start_bytes": 132562944,
+  "run_rss_end_bytes": 155271168,
+  "remote_inference_calls": 0,
+  "timing": "CPU, one warm-up, one message at a time, Python core, no MATLAB or network; RSS includes training process; not peak model memory."
+}

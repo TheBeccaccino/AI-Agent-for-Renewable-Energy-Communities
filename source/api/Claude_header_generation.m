@@ -1,0 +1,23 @@
+function headers = Claude_header_generation(apiKey, timeout_s)
+%CLAUDE_HEADER_GENERATION HTTP options for Anthropic Claude Messages API.
+%
+%   headers = Claude_header_generation(apiKey)
+%   headers = Claude_header_generation(apiKey, timeout_s)
+%
+% The API key is passed only in the x-api-key HTTP header.
+%
+% Anthropic API version intentionally pinned for reproducibility.
+
+    if nargin < 2 || isempty(timeout_s)
+        timeout_s = 300;
+    end
+
+    headers = weboptions( ...
+        'MediaType', 'application/json', ...
+        'HeaderFields', { ...
+            'x-api-key', char(apiKey); ...
+            'anthropic-version', '2023-06-01'; ...
+            'Content-Type', 'application/json' ...
+        }, ...
+        'Timeout', timeout_s);
+end

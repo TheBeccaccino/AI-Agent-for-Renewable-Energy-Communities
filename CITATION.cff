@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "Please cite the archived release used for your analysis."
+type: software
+title: "CERBot: Classification Data, Routing Sources and Results"
+version: "1.1.0"
+repository-code: "https://github.com/TheBeccaccino/AI-Agent-for-Renewable-Energy-Communities"
+url: "https://github.com/TheBeccaccino/AI-Agent-for-Renewable-Energy-Communities"
+abstract: "Supplementary synthetic Italian intent datasets, original routing sources and prompts, recorded classification results, and local baseline materials for studying accuracy-resource trade-offs in REC supervisory agents."
+authors:
+  - given-names: "Lorenzo"
+    family-names: "Becchi"
+    affiliation: "University of Florence"
+  - given-names: "Marco"
+    family-names: "Bindi"
+    affiliation: "University of Florence"
+  - given-names: "Matteo"
+    family-names: "Intravaia"
+    affiliation: "University of Florence"
+  - given-names: "Gabriele Maria"
+    family-names: "Lozito"
+    affiliation: "University of Florence"
+  - given-names: "Maria Cristina"
+    family-names: "Piccirilli"
+    affiliation: "University of Florence"
+  - given-names: "Riccardo"
+    family-names: "Marconi"
+    affiliation: "University of Florence"
+  - given-names: "Vittoria"
+    family-names: "Cacciavillani"
+    affiliation: "University of Florence"
+keywords:
+  - Renewable Energy Communities
+  - intent classification
+  - selective deterministic gating
+  - large language models
+  - local baselines
